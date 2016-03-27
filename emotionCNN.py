@@ -21,7 +21,7 @@ def label_from_name(name):
 	elif emotion == 'SU':
 		return np.array([0,0,0,0,0,0,1])
 	else:
-		raise AssertionError('Unable to determine emotion from name \"%s\".' % name)
+		raise AssertionError("Unable to determine emotion from name \"%s\"." % name)
 
 import tensorflow as tf
 sess = tf.Session()
@@ -32,7 +32,7 @@ images = []
 for root, dirs, files in os.walk('jaffetest', topdown=False):
 	shuffle(files)
 	for name in files:
-		if os.path.splitext(os.path.join(root, name))[1].lower() == ".png":
+		if os.path.splitext(os.path.join(root, name))[1].lower() == '.png':
 			labels += [label_from_name(name)]
 			images += [tf.image.decode_png(tf.read_file(os.path.join(root, name)), channels=1).eval(session=sess)]
 
