@@ -3,21 +3,6 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 from random import shuffle
-for root, dirs, files in os.walk('jaffetest', topdown=False):
-	for name in files:
-		print(os.path.join(root, name))
-		if os.path.splitext(os.path.join(root, name))[1].lower() == ".tiff":
-			if os.path.isfile(os.path.splitext(os.path.join(root, "png/" + name))[0] + ".png"):
-				print "A png file already exists for %s" % name
-				# If a png is *NOT* present, create one from the tiff.
-			else:
-				outfile = os.path.splitext(os.path.join(root, "png/" + name))[0] + ".png"
-				try:
-					im = Image.open(os.path.join(root, name)).convert('LA')
-					print "Generating png for %s" % name
-					im.save(outfile, "PNG", quality=100)
-				except Exception, e:
-					print e
 
 def label_from_name(name):
 	emotion = name[3:5]
@@ -42,7 +27,7 @@ sess = tf.Session()
 filenames = []
 labels = []
 images = []
-for root, dirs, files in os.walk('jaffetest/png', topdown=False):
+for root, dirs, files in os.walk('jaffetest', topdown=False):
 	shuffle(files)
 	for name in files:
 		labels += [label_from_name(name)]
