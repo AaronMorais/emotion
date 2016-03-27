@@ -30,8 +30,9 @@ images = []
 for root, dirs, files in os.walk('jaffetest', topdown=False):
 	shuffle(files)
 	for name in files:
-		labels += [label_from_name(name)]
-		images += [tf.image.decode_png(tf.read_file(os.path.join(root, name)), channels=1).eval(session=sess)]
+		if os.path.splitext(os.path.join(root, name))[1].lower() == ".png":
+			labels += [label_from_name(name)]
+			images += [tf.image.decode_png(tf.read_file(os.path.join(root, name)), channels=1).eval(session=sess)]
 
 images = np.array(images)
 # Convert from [0, 255] -> [0.0, 1.0].
