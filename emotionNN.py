@@ -20,6 +20,8 @@ def label_from_name(name):
 		return np.array([0,0,0,0,0,1,0])
 	elif emotion == 'SU':
 		return np.array([0,0,0,0,0,0,1])
+	else:
+		raise AssertionError('Unable to determine emotion from name \"%s\".' % name)
 
 import tensorflow as tf
 sess = tf.Session()
