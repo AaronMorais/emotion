@@ -146,7 +146,7 @@ def train_net(training_set, testing_set, validation_set, fold_index, logFile):
         train_accuracy = 0
         for j in range(len(training_set[0])):
           train_accuracy += accuracy.eval(session=sess, feed_dict={x: training_set[0][j:j+1], y_: training_set[1][j:j+1], keep_prob: 1.0})
-        log(f, "%d, %d, training accuracy, %g"%(fold_index, k, train_accuracy / float(images.shape[0] - 10)))
+        log(f, "%d, %d, training accuracy, %g"%(fold_index, k, train_accuracy / len(training_set[0])))
         # #prediction of ith image
         # log(f, '\t%s' % np.array_str(y_conv.eval(session=sess, feed_dict={x: training_set[0][i:i+1], keep_prob: 1.0})))
         # #actual label
@@ -166,7 +166,7 @@ def train_net(training_set, testing_set, validation_set, fold_index, logFile):
       if (repeated_good_validation_accuracy >= good_validation_count_threshold):
         break
       #Training step of 5 images at a time with dropout probability of 0.5
-      train_step.run(session=sess, feed_dict={x: training_set[0][i:i+5], y_: training_set[1][i:i+5], keep_prob: 0.50})
+      train_step.run(session=sess, feed_dict={x: training_set[0][i:i+5], y_: training_set[1][i:i+5], keep_prob: 1.0})
 
     test_accuracy = 0
     for i in range(len(testing_set[0])):
