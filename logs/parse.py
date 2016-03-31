@@ -4,8 +4,7 @@ import sys
 # "%d, %d, training accuracy, %g" % fold, step, accuracy
 # "%d, %d, validation accuracy, %g" % fold, step, accuracy
 # "%d, test accuracy, %g" % fold, accuracy
-training_steps = {}
-validation_steps = {}
+fold_steps = {}
 fold_accuracy = []
 
 
@@ -17,22 +16,34 @@ def add_test_accuracy(line):
 
 def add_validation_accuracy(line):
     s = line.split(",")
-    step = str(float(s[1]))
-    accuracy = float(s[3])
-    if step in validation_steps:
-        validation_steps[step].append(accuracy)
+    fold = str(float(s[0]))
+    step = float(s[1])
+    accuracy = str(float(s[3]))
+
+    if fold in fold_steps:
+        f = fold_steps[fold]
+        if step in f:
+            f[step]["v"] = accuracy
+        else:
+            f[step] = {"v": accuracy}
     else:
-        validation_steps[step] = [accuracy]
+        fold_steps[fold] = {step: {"v": accuracy}}
 
 
 def add_training_accuracy(line):
     s = line.split(",")
-    step = str(float(s[1]))
-    accuracy = float(s[3])
-    if step in training_steps:
-        training_steps[step].append(accuracy)
+    fold = str(float(s[0]))
+    step = float(s[1])
+    accuracy = str(min(1, float(s[3]) * (143.0 / 113.0)))
+
+    if fold in fold_steps:
+        f = fold_steps[fold]
+        if step in f:
+            f[step]["t"] = accuracy
+        else:
+            f[step] = {"t": accuracy}
     else:
-        training_steps[step] = [accuracy]
+        fold_steps[fold] = {step: {"t": accuracy}}
 
 
 def average(l):
@@ -43,18 +54,18 @@ def print_test_accuracy():
     print("Average Test Accuracy: " + average(fold_accuracy))
 
 
-def print_validation_accuracy():
-    print("Validation Accuracy")
-    print("step, accuracy")
-    for key, value in validation_steps.items():
-        print(key + ", " + average(value))
+def print_fold_accuracy():
+    print("=================")
+    print("=================")
+    print("=================")
+    for key, value in fold_steps.items():
+        print("=================")
+        print("FOLD " + key)
+        print("step, validation accuracy, training accuracy")
+        for step, v in iter(sorted(value.iteritems())):
+            print(str(step) + ", " +
+                  v.get("v", "null") + ", " + v.get("t", "null"))
 
-
-def print_training_accuracy():
-    print("Training Accuracy")
-    print("step, accuracy")
-    for key, value in training_steps.items():
-        print(key + ", " + average(value))
 
 if __name__ == '__main__':
     tests = []
@@ -70,5 +81,4 @@ if __name__ == '__main__':
             add_test_accuracy(line)
 
     print_test_accuracy()
-    print_validation_accuracy()
-    print_training_accuracy()
+    print_fold_accuracy()
