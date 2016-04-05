@@ -10,20 +10,6 @@ from tensorflow.python.framework import ops
 
 def label_from_name(name):
   emotion = name[3:5]
-  # if emotion == 'AN':
-  #       return np.array([1,0,0,0,0,0,0])
-  # elif emotion == 'DI':
-  #       return np.array([0,1,0,0,0,0,0])
-  # elif emotion == 'FE':
-  #       return np.array([0,0,1,0,0,0,0])
-  # elif emotion == 'HA':
-  #       return np.array([0,0,0,1,0,0,0])
-  # elif emotion == 'NE':
-  #       return np.array([0,0,0,0,1,0,0])
-  # elif emotion == 'SA':
-  #       return np.array([0,0,0,0,0,1,0])
-  # elif emotion == 'SU':
-  #       return np.array([0,0,0,0,0,0,1])
   if emotion == 'HA':
     return np.array([1,0,0,0,0])
   elif emotion == 'SA':
