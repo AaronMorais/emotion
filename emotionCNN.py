@@ -166,7 +166,7 @@ def train_net(training_set, testing_set, validation_set, fold_index, logFile):
       if (repeated_good_validation_accuracy >= good_validation_count_threshold):
         break
       #Training step of 5 images at a time with dropout probability of 0.5
-      train_step.run(session=sess, feed_dict={x: training_set[0][i:i+5], y_: training_set[1][i:i+5], keep_prob: 1.0})
+      train_step.run(session=sess, feed_dict={x: training_set[0][i:i+5], y_: training_set[1][i:i+5], keep_prob: 0.5})
 
     test_accuracy = 0
     for i in range(len(testing_set[0])):
