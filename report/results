@@ -1,0 +1,1106 @@
+153
+Validation Labels
+[[ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]]
+Testing labels
+[[ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  1.  0.  0.  0.]]
+Training Size
+113
+1, 0, training accuracy, 0.153846
+1, 0, validation accuracy, 0.25
+1, 250, training accuracy, 0.174825
+1, 500, training accuracy, 0.230769
+1, 500, validation accuracy, 0.15
+1, 750, training accuracy, 0.300699
+1, 1000, training accuracy, 0.356643
+1, 1000, validation accuracy, 0.1
+1, 1250, training accuracy, 0.34965
+1, 1500, training accuracy, 0.244755
+1, 1500, validation accuracy, 0.05
+1, 1750, training accuracy, 0.405594
+1, 2000, training accuracy, 0.272727
+1, 2000, validation accuracy, 0.05
+1, 2250, training accuracy, 0.314685
+1, 2500, training accuracy, 0.398601
+1, 2500, validation accuracy, 0.2
+1, 2750, training accuracy, 0.398601
+1, 3000, training accuracy, 0.440559
+1, 3000, validation accuracy, 0.4
+1, 3250, training accuracy, 0.447552
+1, 3500, training accuracy, 0.496503
+1, 3500, validation accuracy, 0.3
+1, 3750, training accuracy, 0.538462
+1, 4000, training accuracy, 0.524476
+1, 4000, validation accuracy, 0.4
+1, 4250, training accuracy, 0.58042
+1, 4500, training accuracy, 0.601399
+1, 4500, validation accuracy, 0.35
+1, 4750, training accuracy, 0.601399
+1, 5000, training accuracy, 0.601399
+1, 5000, validation accuracy, 0.35
+1, 5250, training accuracy, 0.608392
+1, 5500, training accuracy, 0.671329
+1, 5500, validation accuracy, 0.4
+1, 5750, training accuracy, 0.664336
+1, 6000, training accuracy, 0.692308
+1, 6000, validation accuracy, 0.55
+1, 6250, training accuracy, 0.678322
+1, 6500, training accuracy, 0.706294
+1, 6500, validation accuracy, 0.45
+1, 6750, training accuracy, 0.692308
+1, 7000, training accuracy, 0.734266
+1, 7000, validation accuracy, 0.5
+1, 7250, training accuracy, 0.713287
+1, 7500, training accuracy, 0.692308
+1, 7500, validation accuracy, 0.45
+1, 7750, training accuracy, 0.755245
+1, 8000, training accuracy, 0.769231
+1, 8000, validation accuracy, 0.45
+1, 8250, training accuracy, 0.769231
+1, 8500, training accuracy, 0.776224
+1, 8500, validation accuracy, 0.65
+1, 8750, training accuracy, 0.741259
+1, 9000, training accuracy, 0.769231
+1, 9000, validation accuracy, 0.6
+1, 9250, training accuracy, 0.783217
+1, 9500, training accuracy, 0.783217
+1, 9500, validation accuracy, 0.65
+1, 9750, training accuracy, 0.755245
+1, 10000, training accuracy, 0.783217
+1, 10000, validation accuracy, 0.55
+1, 10250, training accuracy, 0.776224
+1, 10500, training accuracy, 0.783217
+1, 10500, validation accuracy, 0.55
+1, 10750, training accuracy, 0.79021
+1, 11000, training accuracy, 0.79021
+1, 11000, validation accuracy, 0.75
+1, 11250, training accuracy, 0.783217
+1, 11500, training accuracy, 0.783217
+1, 11500, validation accuracy, 0.55
+1, 11750, training accuracy, 0.79021
+1, 12000, training accuracy, 0.79021
+1, 12000, validation accuracy, 0.8
+1, 12250, training accuracy, 0.783217
+1, 12500, training accuracy, 0.783217
+1, 12500, validation accuracy, 0.65
+1, 12750, training accuracy, 0.79021
+1, 13000, training accuracy, 0.79021
+1, 13000, validation accuracy, 0.8
+1, 13250, training accuracy, 0.783217
+1, 13500, training accuracy, 0.783217
+1, 13500, validation accuracy, 0.85
+1, 13750, training accuracy, 0.79021
+1, 14000, training accuracy, 0.79021
+1, 14000, validation accuracy, 0.85
+1, 14250, training accuracy, 0.783217
+1, 14500, training accuracy, 0.79021
+1, 14500, validation accuracy, 0.7
+1, 14750, training accuracy, 0.79021
+1, 15000, training accuracy, 0.79021
+1, 15000, validation accuracy, 0.8
+1, 15250, training accuracy, 0.79021
+1, 15500, training accuracy, 0.79021
+1, 15500, validation accuracy, 0.65
+1, 15750, training accuracy, 0.783217
+1, 16000, training accuracy, 0.79021
+1, 16000, validation accuracy, 0.75
+1, 16250, training accuracy, 0.79021
+1, 16500, training accuracy, 0.79021
+1, 16500, validation accuracy, 0.85
+1, 16750, training accuracy, 0.79021
+1, 17000, training accuracy, 0.79021
+1, 17000, validation accuracy, 0.8
+1, 17250, training accuracy, 0.79021
+1, 17500, training accuracy, 0.79021
+1, 17500, validation accuracy, 0.8
+1, 17750, training accuracy, 0.79021
+1, 18000, training accuracy, 0.79021
+1, 18000, validation accuracy, 0.85
+1, 18250, training accuracy, 0.79021
+1, 18500, training accuracy, 0.79021
+1, 18500, validation accuracy, 0.8
+1, 18750, training accuracy, 0.79021
+1, 19000, training accuracy, 0.79021
+1, 19000, validation accuracy, 0.8
+1, 19250, training accuracy, 0.79021
+1, 19500, training accuracy, 0.79021
+1, 19500, validation accuracy, 0.8
+1, 19750, training accuracy, 0.79021
+1, 20000, training accuracy, 0.79021
+1, 20000, validation accuracy, 0.85
+1, 20250, training accuracy, 0.79021
+1, 20500, training accuracy, 0.79021
+1, 20500, validation accuracy, 0.75
+1, 20750, training accuracy, 0.79021
+1, 21000, training accuracy, 0.79021
+1, 21000, validation accuracy, 0.7
+1, 21250, training accuracy, 0.79021
+1, 21500, training accuracy, 0.79021
+1, 21500, validation accuracy, 0.65
+1, 21750, training accuracy, 0.79021
+1, 22000, training accuracy, 0.79021
+1, 22000, validation accuracy, 0.8
+1, 22250, training accuracy, 0.79021
+1, 22500, training accuracy, 0.79021
+1, 22500, validation accuracy, 0.85
+1, 22750, training accuracy, 0.79021
+1, 23000, training accuracy, 0.79021
+1, 23000, validation accuracy, 0.85
+1, 23250, training accuracy, 0.79021
+1, 23500, training accuracy, 0.79021
+1, 23500, validation accuracy, 0.85
+1, 23750, training accuracy, 0.79021
+1, 24000, training accuracy, 0.79021
+1, 24000, validation accuracy, 0.8
+1, 24250, training accuracy, 0.79021
+1, 24500, training accuracy, 0.79021
+1, 24500, validation accuracy, 0.85
+1, 24750, training accuracy, 0.79021
+1, 25000, training accuracy, 0.79021
+1, 25000, validation accuracy, 0.85
+1, 25250, training accuracy, 0.79021
+1, 25500, training accuracy, 0.79021
+1, 25500, validation accuracy, 0.85
+1, 25750, training accuracy, 0.79021
+1, 26000, training accuracy, 0.79021
+1, 26000, validation accuracy, 0.8
+1, 26250, training accuracy, 0.79021
+1, 26500, training accuracy, 0.79021
+1, 26500, validation accuracy, 0.85
+1, 26750, training accuracy, 0.79021
+1, 27000, training accuracy, 0.79021
+1, 27000, validation accuracy, 0.85
+1, 27250, training accuracy, 0.79021
+1, 27500, training accuracy, 0.79021
+1, 27500, validation accuracy, 0.85
+1, 27750, training accuracy, 0.79021
+1, 28000, training accuracy, 0.79021
+1, 28000, validation accuracy, 0.9
+1, 28250, training accuracy, 0.79021
+1, 28500, training accuracy, 0.79021
+1, 28500, validation accuracy, 0.85
+[[ 0.0032953   0.59580112  0.02624728  0.00199216  0.37266415]]
+[[ 0.  0.  0.  0.  1.]]
+[[  9.80947852e-01   1.45935016e-02   3.16959864e-04   2.12240251e-04
+    3.92951118e-03]]
+[[ 1.  0.  0.  0.  0.]]
+[[  9.98135448e-01   1.24364335e-04   3.84689229e-05   1.26978644e-04
+    1.57479465e-03]]
+[[ 1.  0.  0.  0.  0.]]
+[[  1.13477363e-04   8.32725037e-03   1.71770424e-01   8.12261820e-01
+    7.52700213e-03]]
+[[ 0.  0.  0.  1.  0.]]
+[[ 0.01346512  0.00482106  0.02786706  0.30318892  0.65065783]]
+[[ 0.  0.  0.  0.  1.]]
+[[  1.83550263e-04   9.98913050e-01   6.23585482e-04   2.56606785e-04
+    2.32584789e-05]]
+[[ 0.  1.  0.  0.  0.]]
+[[  9.98179793e-01   1.06608449e-03   1.30061220e-04   1.22108861e-04
+    5.02010807e-04]]
+[[ 1.  0.  0.  0.  0.]]
+[[ 0.00109129  0.00509409  0.04846793  0.66919327  0.27615342]]
+[[ 0.  0.  0.  1.  0.]]
+[[ 0.0160301   0.0689323   0.00370105  0.73696715  0.17436945]]
+[[ 0.  0.  0.  1.  0.]]
+[[  6.94075352e-05   3.00642988e-03   9.96650279e-01   2.36131818e-04
+    3.77785691e-05]]
+[[ 0.  0.  1.  0.  0.]]
+[[  4.41666663e-04   1.59004389e-03   3.52612074e-06   9.18744714e-04
+    9.97046053e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  7.74431915e-04   9.15515065e-01   8.29509199e-02   6.75834948e-04
+    8.38714768e-05]]
+[[ 0.  1.  0.  0.  0.]]
+[[  2.31089682e-04   9.98658895e-01   8.36185878e-04   7.02304533e-05
+    2.03558957e-04]]
+[[ 0.  1.  0.  0.  0.]]
+[[  2.08272922e-06   6.78631041e-05   9.99868989e-01   5.66809285e-05
+    4.27866189e-06]]
+[[ 0.  0.  1.  0.  0.]]
+[[  9.96447563e-01   1.44234928e-03   4.64740064e-04   4.78826223e-05
+    1.59758748e-03]]
+[[ 1.  0.  0.  0.  0.]]
+[[  1.77047477e-04   4.11449581e-01   9.60973557e-03   5.77574968e-01
+    1.18865934e-03]]
+[[ 0.  0.  0.  0.  1.]]
+[[ 0.00116832  0.84791738  0.03655368  0.01673202  0.09762855]]
+[[ 0.  1.  0.  0.  0.]]
+[[  3.75912350e-04   8.32144811e-04   3.16391597e-05   1.97178415e-05
+    9.98740613e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  1.50154941e-04   2.59387936e-03   1.43834273e-03   9.92980599e-01
+    2.83701718e-03]]
+[[ 0.  0.  0.  1.  0.]]
+[[  5.44632203e-04   9.97674882e-01   1.16295298e-03   8.75169280e-05
+    5.30044839e-04]]
+[[ 0.  1.  0.  0.  0.]]
+1, test accuracy, 0.9
+Validation Labels
+[[ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]]
+Testing labels
+[[ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]]
+Training Size
+113
+2, 0, training accuracy, 0.174825
+2, 0, validation accuracy, 0.1
+2, 250, training accuracy, 0.258741
+2, 500, training accuracy, 0.27972
+2, 500, validation accuracy, 0.3
+2, 750, training accuracy, 0.272727
+2, 1000, training accuracy, 0.258741
+2, 1000, validation accuracy, 0.2
+2, 1250, training accuracy, 0.370629
+2, 1500, training accuracy, 0.27972
+2, 1500, validation accuracy, 0.2
+2, 1750, training accuracy, 0.286713
+2, 2000, training accuracy, 0.391608
+2, 2000, validation accuracy, 0.4
+2, 2250, training accuracy, 0.328671
+2, 2500, training accuracy, 0.335664
+2, 2500, validation accuracy, 0.3
+2, 2750, training accuracy, 0.405594
+2, 3000, training accuracy, 0.468531
+2, 3000, validation accuracy, 0.45
+2, 3250, training accuracy, 0.454545
+2, 3500, training accuracy, 0.461538
+2, 3500, validation accuracy, 0.4
+2, 3750, training accuracy, 0.482517
+2, 4000, training accuracy, 0.496503
+2, 4000, validation accuracy, 0.65
+2, 4250, training accuracy, 0.48951
+2, 4500, training accuracy, 0.608392
+2, 4500, validation accuracy, 0.7
+2, 4750, training accuracy, 0.594406
+2, 5000, training accuracy, 0.51049
+2, 5000, validation accuracy, 0.5
+2, 5250, training accuracy, 0.58042
+2, 5500, training accuracy, 0.503497
+2, 5500, validation accuracy, 0.45
+2, 5750, training accuracy, 0.608392
+2, 6000, training accuracy, 0.608392
+2, 6000, validation accuracy, 0.55
+2, 6250, training accuracy, 0.566434
+2, 6500, training accuracy, 0.664336
+2, 6500, validation accuracy, 0.75
+2, 6750, training accuracy, 0.657343
+2, 7000, training accuracy, 0.692308
+2, 7000, validation accuracy, 0.65
+2, 7250, training accuracy, 0.713287
+2, 7500, training accuracy, 0.622378
+2, 7500, validation accuracy, 0.55
+2, 7750, training accuracy, 0.741259
+2, 8000, training accuracy, 0.727273
+2, 8000, validation accuracy, 0.75
+2, 8250, training accuracy, 0.755245
+2, 8500, training accuracy, 0.741259
+2, 8500, validation accuracy, 0.75
+2, 8750, training accuracy, 0.741259
+2, 9000, training accuracy, 0.755245
+2, 9000, validation accuracy, 0.8
+2, 9250, training accuracy, 0.734266
+2, 9500, training accuracy, 0.734266
+2, 9500, validation accuracy, 0.8
+2, 9750, training accuracy, 0.769231
+2, 10000, training accuracy, 0.762238
+2, 10000, validation accuracy, 0.75
+2, 10250, training accuracy, 0.769231
+2, 10500, training accuracy, 0.776224
+2, 10500, validation accuracy, 0.8
+2, 10750, training accuracy, 0.79021
+2, 11000, training accuracy, 0.776224
+2, 11000, validation accuracy, 0.9
+2, 11250, training accuracy, 0.79021
+2, 11500, training accuracy, 0.783217
+2, 11500, validation accuracy, 0.8
+2, 11750, training accuracy, 0.783217
+2, 12000, training accuracy, 0.776224
+2, 12000, validation accuracy, 0.85
+2, 12250, training accuracy, 0.776224
+2, 12500, training accuracy, 0.769231
+2, 12500, validation accuracy, 0.85
+2, 12750, training accuracy, 0.776224
+2, 13000, training accuracy, 0.79021
+2, 13000, validation accuracy, 0.95
+2, 13250, training accuracy, 0.783217
+2, 13500, training accuracy, 0.783217
+2, 13500, validation accuracy, 0.95
+2, 13750, training accuracy, 0.783217
+2, 14000, training accuracy, 0.79021
+2, 14000, validation accuracy, 0.9
+[[ 0.02915692  0.00458804  0.02911018  0.38192961  0.55521524]]
+[[ 0.  0.  0.  0.  1.]]
+[[ 0.49971205  0.42125466  0.00060787  0.02089532  0.05753015]]
+[[ 1.  0.  0.  0.  0.]]
+[[ 0.04581391  0.28701091  0.03002202  0.58937049  0.0477826 ]]
+[[ 0.  0.  1.  0.  0.]]
+[[ 0.01591962  0.01648701  0.87737834  0.08056352  0.00965152]]
+[[ 0.  0.  1.  0.  0.]]
+[[ 0.05947873  0.35239774  0.008023    0.00705114  0.57304943]]
+[[ 0.  0.  0.  0.  1.]]
+[[ 0.41984269  0.0127723   0.00676084  0.53731847  0.02330573]]
+[[ 1.  0.  0.  0.  0.]]
+[[ 0.02856445  0.29978186  0.01025507  0.07892824  0.58247036]]
+[[ 0.  0.  0.  0.  1.]]
+[[  3.29660601e-04   2.49852473e-03   9.89391327e-01   4.94593522e-03
+    2.83453031e-03]]
+[[ 0.  0.  1.  0.  0.]]
+[[ 0.80432385  0.1845447   0.00103633  0.00428464  0.00581047]]
+[[ 1.  0.  0.  0.  0.]]
+[[  5.35566476e-04   4.47991071e-04   9.26939309e-01   7.17335045e-02
+    3.43638210e-04]]
+[[ 0.  0.  1.  0.  0.]]
+[[ 0.01417443  0.0468694   0.02275302  0.87241209  0.04379101]]
+[[ 0.  0.  0.  1.  0.]]
+[[  1.16229691e-02   6.84499694e-03   9.45971173e-04   2.71137757e-03
+    9.77874696e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[ 0.0177418   0.9344787   0.03536082  0.01058269  0.00183609]]
+[[ 0.  1.  0.  0.  0.]]
+[[ 0.04588518  0.17484781  0.06438573  0.65709883  0.05778244]]
+[[ 0.  0.  1.  0.  0.]]
+[[ 0.0207527   0.11490136  0.85277379  0.00941609  0.00215593]]
+[[ 0.  0.  1.  0.  0.]]
+[[ 0.03844126  0.00561398  0.01316184  0.00963981  0.93314314]]
+[[ 0.  0.  0.  0.  1.]]
+[[ 0.15108639  0.60666341  0.00934512  0.12334833  0.10955675]]
+[[ 0.  1.  0.  0.  0.]]
+[[ 0.01506826  0.06210735  0.02283692  0.89739078  0.00259666]]
+[[ 0.  0.  0.  1.  0.]]
+[[ 0.57524592  0.3659476   0.00903549  0.01546843  0.03430254]]
+[[ 1.  0.  0.  0.  0.]]
+[[ 0.12097215  0.37293005  0.02259682  0.40233132  0.08116973]]
+[[ 0.  1.  0.  0.  0.]]
+2, test accuracy, 0.8
+Validation Labels
+[[ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 1.  0.  0.  0.  0.]]
+Testing labels
+[[ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]]
+Training Size
+113
+3, 0, training accuracy, 0.181818
+3, 0, validation accuracy, 0.2
+3, 250, training accuracy, 0.160839
+3, 500, training accuracy, 0.265734
+3, 500, validation accuracy, 0.35
+3, 750, training accuracy, 0.244755
+3, 1000, training accuracy, 0.286713
+3, 1000, validation accuracy, 0.3
+3, 1250, training accuracy, 0.335664
+3, 1500, training accuracy, 0.272727
+3, 1500, validation accuracy, 0.35
+3, 1750, training accuracy, 0.454545
+3, 2000, training accuracy, 0.475524
+3, 2000, validation accuracy, 0.35
+3, 2250, training accuracy, 0.398601
+3, 2500, training accuracy, 0.41958
+3, 2500, validation accuracy, 0.35
+3, 2750, training accuracy, 0.468531
+3, 3000, training accuracy, 0.405594
+3, 3000, validation accuracy, 0.35
+3, 3250, training accuracy, 0.468531
+3, 3500, training accuracy, 0.482517
+3, 3500, validation accuracy, 0.35
+3, 3750, training accuracy, 0.48951
+3, 4000, training accuracy, 0.552448
+3, 4000, validation accuracy, 0.25
+3, 4250, training accuracy, 0.629371
+3, 4500, training accuracy, 0.587413
+3, 4500, validation accuracy, 0.35
+3, 4750, training accuracy, 0.601399
+3, 5000, training accuracy, 0.573427
+3, 5000, validation accuracy, 0.4
+3, 5250, training accuracy, 0.566434
+3, 5500, training accuracy, 0.594406
+3, 5500, validation accuracy, 0.5
+3, 5750, training accuracy, 0.643357
+3, 6000, training accuracy, 0.692308
+3, 6000, validation accuracy, 0.4
+3, 6250, training accuracy, 0.643357
+3, 6500, training accuracy, 0.699301
+3, 6500, validation accuracy, 0.5
+3, 6750, training accuracy, 0.685315
+3, 7000, training accuracy, 0.664336
+3, 7000, validation accuracy, 0.55
+3, 7250, training accuracy, 0.678322
+3, 7500, training accuracy, 0.657343
+3, 7500, validation accuracy, 0.45
+3, 7750, training accuracy, 0.699301
+3, 8000, training accuracy, 0.748252
+3, 8000, validation accuracy, 0.65
+3, 8250, training accuracy, 0.741259
+3, 8500, training accuracy, 0.727273
+3, 8500, validation accuracy, 0.6
+3, 8750, training accuracy, 0.748252
+3, 9000, training accuracy, 0.755245
+3, 9000, validation accuracy, 0.7
+3, 9250, training accuracy, 0.769231
+3, 9500, training accuracy, 0.762238
+3, 9500, validation accuracy, 0.65
+3, 9750, training accuracy, 0.783217
+3, 10000, training accuracy, 0.776224
+3, 10000, validation accuracy, 0.65
+3, 10250, training accuracy, 0.776224
+3, 10500, training accuracy, 0.769231
+3, 10500, validation accuracy, 0.7
+3, 10750, training accuracy, 0.783217
+3, 11000, training accuracy, 0.79021
+3, 11000, validation accuracy, 0.75
+3, 11250, training accuracy, 0.783217
+3, 11500, training accuracy, 0.79021
+3, 11500, validation accuracy, 0.7
+3, 11750, training accuracy, 0.783217
+3, 12000, training accuracy, 0.79021
+3, 12000, validation accuracy, 0.75
+3, 12250, training accuracy, 0.79021
+3, 12500, training accuracy, 0.79021
+3, 12500, validation accuracy, 0.8
+3, 12750, training accuracy, 0.79021
+3, 13000, training accuracy, 0.79021
+3, 13000, validation accuracy, 0.75
+3, 13250, training accuracy, 0.79021
+3, 13500, training accuracy, 0.79021
+3, 13500, validation accuracy, 0.75
+3, 13750, training accuracy, 0.79021
+3, 14000, training accuracy, 0.79021
+3, 14000, validation accuracy, 0.8
+3, 14250, training accuracy, 0.79021
+3, 14500, training accuracy, 0.79021
+3, 14500, validation accuracy, 0.75
+3, 14750, training accuracy, 0.79021
+3, 15000, training accuracy, 0.79021
+3, 15000, validation accuracy, 0.9
+3, 15250, training accuracy, 0.79021
+3, 15500, training accuracy, 0.79021
+3, 15500, validation accuracy, 0.85
+3, 15750, training accuracy, 0.79021
+3, 16000, training accuracy, 0.79021
+3, 16000, validation accuracy, 0.8
+3, 16250, training accuracy, 0.79021
+3, 16500, training accuracy, 0.79021
+3, 16500, validation accuracy, 0.75
+3, 16750, training accuracy, 0.79021
+3, 17000, training accuracy, 0.79021
+3, 17000, validation accuracy, 0.85
+3, 17250, training accuracy, 0.79021
+3, 17500, training accuracy, 0.79021
+3, 17500, validation accuracy, 0.8
+3, 17750, training accuracy, 0.79021
+3, 18000, training accuracy, 0.79021
+3, 18000, validation accuracy, 0.85
+3, 18250, training accuracy, 0.79021
+3, 18500, training accuracy, 0.79021
+3, 18500, validation accuracy, 0.75
+3, 18750, training accuracy, 0.79021
+3, 19000, training accuracy, 0.79021
+3, 19000, validation accuracy, 0.8
+3, 19250, training accuracy, 0.79021
+3, 19500, training accuracy, 0.79021
+3, 19500, validation accuracy, 0.8
+3, 19750, training accuracy, 0.79021
+3, 20000, training accuracy, 0.79021
+3, 20000, validation accuracy, 0.8
+3, 20250, training accuracy, 0.79021
+3, 20500, training accuracy, 0.79021
+3, 20500, validation accuracy, 0.8
+3, 20750, training accuracy, 0.79021
+3, 21000, training accuracy, 0.79021
+3, 21000, validation accuracy, 0.85
+3, 21250, training accuracy, 0.79021
+3, 21500, training accuracy, 0.79021
+3, 21500, validation accuracy, 0.85
+3, 21750, training accuracy, 0.79021
+3, 22000, training accuracy, 0.79021
+3, 22000, validation accuracy, 0.85
+3, 22250, training accuracy, 0.79021
+3, 22500, training accuracy, 0.79021
+3, 22500, validation accuracy, 0.8
+3, 22750, training accuracy, 0.79021
+3, 23000, training accuracy, 0.79021
+3, 23000, validation accuracy, 0.85
+3, 23250, training accuracy, 0.79021
+3, 23500, training accuracy, 0.79021
+3, 23500, validation accuracy, 0.9
+3, 23750, training accuracy, 0.79021
+3, 24000, training accuracy, 0.79021
+3, 24000, validation accuracy, 0.9
+3, 24250, training accuracy, 0.79021
+3, 24500, training accuracy, 0.79021
+3, 24500, validation accuracy, 0.9
+3, 24750, training accuracy, 0.79021
+3, 25000, training accuracy, 0.79021
+3, 25000, validation accuracy, 0.85
+[[  4.48406217e-06   1.55068465e-05   9.99876380e-01   9.41011967e-05
+    9.56940312e-06]]
+[[ 0.  0.  1.  0.  0.]]
+[[  8.86301161e-04   2.24373979e-03   8.54235350e-06   5.38957102e-05
+    9.96807575e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  9.99767721e-01   1.12667360e-04   1.16796582e-05   6.56077682e-05
+    4.24515201e-05]]
+[[ 1.  0.  0.  0.  0.]]
+[[  9.92530763e-01   4.45693778e-03   3.09547941e-05   1.88353060e-05
+    2.96248798e-03]]
+[[ 1.  0.  0.  0.  0.]]
+[[ 0.03388222  0.05448703  0.84025759  0.00763947  0.06373365]]
+[[ 0.  0.  1.  0.  0.]]
+[[  9.42064682e-04   6.84219241e-01   3.12927186e-01   5.95648540e-04
+    1.31579908e-03]]
+[[ 0.  1.  0.  0.  0.]]
+[[  2.10207945e-04   1.90416642e-04   9.97235954e-01   2.33044964e-03
+    3.30578514e-05]]
+[[ 0.  0.  1.  0.  0.]]
+[[  2.10475133e-04   1.24107394e-03   2.17753277e-05   1.78487098e-04
+    9.98348236e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  8.98995996e-01   9.88128185e-02   4.72588203e-04   4.85119002e-04
+    1.23343861e-03]]
+[[ 1.  0.  0.  0.  0.]]
+[[ 0.01634152  0.47417301  0.01879992  0.04342715  0.44725844]]
+[[ 0.  1.  0.  0.  0.]]
+[[ 0.00829795  0.92675775  0.05523093  0.0027194   0.00699402]]
+[[ 0.  1.  0.  0.  0.]]
+[[  3.46843211e-04   1.68388578e-04   3.18866991e-03   9.95456934e-01
+    8.39159300e-04]]
+[[ 0.  0.  0.  1.  0.]]
+[[  1.35731942e-03   1.64329982e-03   1.01830000e-02   9.86200988e-01
+    6.15292636e-04]]
+[[ 0.  0.  0.  1.  0.]]
+[[  4.73667824e-05   4.67624253e-04   1.58544444e-02   9.82449770e-01
+    1.18081528e-03]]
+[[ 0.  0.  0.  1.  0.]]
+[[  1.63118981e-04   6.46437402e-04   8.21670890e-01   1.45946562e-01
+    3.15730050e-02]]
+[[ 0.  0.  1.  0.  0.]]
+[[  4.42567252e-04   2.10722326e-04   9.96578753e-01   2.73976289e-03
+    2.81770754e-05]]
+[[ 0.  0.  1.  0.  0.]]
+[[  9.98342752e-01   5.12789004e-04   2.08634185e-04   1.45536069e-05
+    9.21272789e-04]]
+[[ 1.  0.  0.  0.  0.]]
+[[  9.99548376e-01   1.24008700e-04   4.82341493e-05   6.82451573e-05
+    2.11042105e-04]]
+[[ 1.  0.  0.  0.  0.]]
+[[  9.99677896e-01   1.06675056e-04   5.34486344e-06   1.77585287e-04
+    3.24891917e-05]]
+[[ 1.  0.  0.  0.  0.]]
+[[  2.16677399e-05   7.21490687e-06   6.11772586e-04   9.99322176e-01
+    3.71870228e-05]]
+[[ 0.  0.  0.  1.  0.]]
+3, test accuracy, 1
+Validation Labels
+[[ 0.  0.  0.  1.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 1.  0.  0.  0.  0.]]
+Testing labels
+[[ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  1.]
+ [ 0.  0.  1.  0.  0.]
+ [ 1.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 0.  1.  0.  0.  0.]
+ [ 0.  0.  0.  1.  0.]
+ [ 1.  0.  0.  0.  0.]]
+Training Size
+113
+0, 0, training accuracy, 0.160839
+0, 0, validation accuracy, 0.25
+0, 250, training accuracy, 0.181818
+0, 500, training accuracy, 0.181818
+0, 500, validation accuracy, 0.05
+0, 750, training accuracy, 0.195804
+0, 1000, training accuracy, 0.258741
+0, 1000, validation accuracy, 0.15
+0, 1250, training accuracy, 0.440559
+0, 1500, training accuracy, 0.293706
+0, 1500, validation accuracy, 0.25
+0, 1750, training accuracy, 0.293706
+0, 2000, training accuracy, 0.482517
+0, 2000, validation accuracy, 0.3
+0, 2250, training accuracy, 0.377622
+0, 2500, training accuracy, 0.58042
+0, 2500, validation accuracy, 0.35
+0, 2750, training accuracy, 0.447552
+0, 3000, training accuracy, 0.468531
+0, 3000, validation accuracy, 0.35
+0, 3250, training accuracy, 0.48951
+0, 3500, training accuracy, 0.58042
+0, 3500, validation accuracy, 0.35
+0, 3750, training accuracy, 0.538462
+0, 4000, training accuracy, 0.51049
+0, 4000, validation accuracy, 0.3
+0, 4250, training accuracy, 0.552448
+0, 4500, training accuracy, 0.643357
+0, 4500, validation accuracy, 0.35
+0, 4750, training accuracy, 0.615385
+0, 5000, training accuracy, 0.685315
+0, 5000, validation accuracy, 0.35
+0, 5250, training accuracy, 0.622378
+0, 5500, training accuracy, 0.65035
+0, 5500, validation accuracy, 0.35
+0, 5750, training accuracy, 0.622378
+0, 6000, training accuracy, 0.657343
+0, 6000, validation accuracy, 0.4
+0, 6250, training accuracy, 0.608392
+0, 6500, training accuracy, 0.706294
+0, 6500, validation accuracy, 0.55
+0, 6750, training accuracy, 0.706294
+0, 7000, training accuracy, 0.734266
+0, 7000, validation accuracy, 0.5
+0, 7250, training accuracy, 0.713287
+0, 7500, training accuracy, 0.741259
+0, 7500, validation accuracy, 0.55
+0, 7750, training accuracy, 0.72028
+0, 8000, training accuracy, 0.748252
+0, 8000, validation accuracy, 0.55
+0, 8250, training accuracy, 0.769231
+0, 8500, training accuracy, 0.755245
+0, 8500, validation accuracy, 0.65
+0, 8750, training accuracy, 0.748252
+0, 9000, training accuracy, 0.762238
+0, 9000, validation accuracy, 0.6
+0, 9250, training accuracy, 0.769231
+0, 9500, training accuracy, 0.776224
+0, 9500, validation accuracy, 0.65
+0, 9750, training accuracy, 0.776224
+0, 10000, training accuracy, 0.776224
+0, 10000, validation accuracy, 0.65
+0, 10250, training accuracy, 0.769231
+0, 10500, training accuracy, 0.776224
+0, 10500, validation accuracy, 0.65
+0, 10750, training accuracy, 0.783217
+0, 11000, training accuracy, 0.783217
+0, 11000, validation accuracy, 0.7
+0, 11250, training accuracy, 0.776224
+0, 11500, training accuracy, 0.776224
+0, 11500, validation accuracy, 0.6
+0, 11750, training accuracy, 0.783217
+0, 12000, training accuracy, 0.783217
+0, 12000, validation accuracy, 0.7
+0, 12250, training accuracy, 0.783217
+0, 12500, training accuracy, 0.783217
+0, 12500, validation accuracy, 0.55
+0, 12750, training accuracy, 0.783217
+0, 13000, training accuracy, 0.783217
+0, 13000, validation accuracy, 0.7
+0, 13250, training accuracy, 0.79021
+0, 13500, training accuracy, 0.783217
+0, 13500, validation accuracy, 0.7
+0, 13750, training accuracy, 0.783217
+0, 14000, training accuracy, 0.79021
+0, 14000, validation accuracy, 0.65
+0, 14250, training accuracy, 0.783217
+0, 14500, training accuracy, 0.79021
+0, 14500, validation accuracy, 0.75
+0, 14750, training accuracy, 0.79021
+0, 15000, training accuracy, 0.783217
+0, 15000, validation accuracy, 0.7
+0, 15250, training accuracy, 0.79021
+0, 15500, training accuracy, 0.79021
+0, 15500, validation accuracy, 0.7
+0, 15750, training accuracy, 0.79021
+0, 16000, training accuracy, 0.79021
+0, 16000, validation accuracy, 0.7
+0, 16250, training accuracy, 0.79021
+0, 16500, training accuracy, 0.79021
+0, 16500, validation accuracy, 0.7
+0, 16750, training accuracy, 0.79021
+0, 17000, training accuracy, 0.79021
+0, 17000, validation accuracy, 0.75
+0, 17250, training accuracy, 0.79021
+0, 17500, training accuracy, 0.79021
+0, 17500, validation accuracy, 0.75
+0, 17750, training accuracy, 0.79021
+0, 18000, training accuracy, 0.79021
+0, 18000, validation accuracy, 0.75
+0, 18250, training accuracy, 0.79021
+0, 18500, training accuracy, 0.79021
+0, 18500, validation accuracy, 0.75
+0, 18750, training accuracy, 0.79021
+0, 19000, training accuracy, 0.79021
+0, 19000, validation accuracy, 0.75
+0, 19250, training accuracy, 0.79021
+0, 19500, training accuracy, 0.79021
+0, 19500, validation accuracy, 0.7
+0, 19750, training accuracy, 0.79021
+0, 20000, training accuracy, 0.79021
+0, 20000, validation accuracy, 0.8
+0, 20250, training accuracy, 0.79021
+0, 20500, training accuracy, 0.79021
+0, 20500, validation accuracy, 0.6
+0, 20750, training accuracy, 0.79021
+0, 21000, training accuracy, 0.79021
+0, 21000, validation accuracy, 0.75
+0, 21250, training accuracy, 0.79021
+0, 21500, training accuracy, 0.79021
+0, 21500, validation accuracy, 0.75
+0, 21750, training accuracy, 0.79021
+0, 22000, training accuracy, 0.79021
+0, 22000, validation accuracy, 0.7
+0, 22250, training accuracy, 0.79021
+0, 22500, training accuracy, 0.79021
+0, 22500, validation accuracy, 0.75
+0, 22750, training accuracy, 0.79021
+0, 23000, training accuracy, 0.79021
+0, 23000, validation accuracy, 0.75
+0, 23250, training accuracy, 0.79021
+0, 23500, training accuracy, 0.79021
+0, 23500, validation accuracy, 0.75
+0, 23750, training accuracy, 0.79021
+0, 24000, training accuracy, 0.79021
+0, 24000, validation accuracy, 0.75
+0, 24250, training accuracy, 0.79021
+0, 24500, training accuracy, 0.79021
+0, 24500, validation accuracy, 0.75
+0, 24750, training accuracy, 0.79021
+0, 25000, training accuracy, 0.79021
+0, 25000, validation accuracy, 0.75
+0, 25250, training accuracy, 0.79021
+0, 25500, training accuracy, 0.79021
+0, 25500, validation accuracy, 0.75
+0, 25750, training accuracy, 0.79021
+0, 26000, training accuracy, 0.79021
+0, 26000, validation accuracy, 0.75
+0, 26250, training accuracy, 0.79021
+0, 26500, training accuracy, 0.79021
+0, 26500, validation accuracy, 0.7
+0, 26750, training accuracy, 0.79021
+0, 27000, training accuracy, 0.79021
+0, 27000, validation accuracy, 0.75
+0, 27250, training accuracy, 0.79021
+0, 27500, training accuracy, 0.79021
+0, 27500, validation accuracy, 0.75
+0, 27750, training accuracy, 0.79021
+0, 28000, training accuracy, 0.79021
+0, 28000, validation accuracy, 0.75
+0, 28250, training accuracy, 0.79021
+0, 28500, training accuracy, 0.79021
+0, 28500, validation accuracy, 0.7
+0, 28750, training accuracy, 0.79021
+0, 29000, training accuracy, 0.79021
+0, 29000, validation accuracy, 0.75
+0, 29250, training accuracy, 0.79021
+0, 29500, training accuracy, 0.79021
+0, 29500, validation accuracy, 0.75
+0, 29750, training accuracy, 0.79021
+0, 30000, training accuracy, 0.79021
+0, 30000, validation accuracy, 0.8
+0, 30250, training accuracy, 0.79021
+0, 30500, training accuracy, 0.79021
+0, 30500, validation accuracy, 0.7
+0, 30750, training accuracy, 0.79021
+0, 31000, training accuracy, 0.79021
+0, 31000, validation accuracy, 0.8
+0, 31250, training accuracy, 0.79021
+0, 31500, training accuracy, 0.79021
+0, 31500, validation accuracy, 0.75
+0, 31750, training accuracy, 0.79021
+0, 32000, training accuracy, 0.79021
+0, 32000, validation accuracy, 0.65
+0, 32250, training accuracy, 0.79021
+0, 32500, training accuracy, 0.79021
+0, 32500, validation accuracy, 0.75
+0, 32750, training accuracy, 0.79021
+0, 33000, training accuracy, 0.79021
+0, 33000, validation accuracy, 0.75
+0, 33250, training accuracy, 0.79021
+0, 33500, training accuracy, 0.79021
+0, 33500, validation accuracy, 0.7
+0, 33750, training accuracy, 0.79021
+0, 34000, training accuracy, 0.79021
+0, 34000, validation accuracy, 0.8
+0, 34250, training accuracy, 0.79021
+0, 34500, training accuracy, 0.79021
+0, 34500, validation accuracy, 0.75
+0, 34750, training accuracy, 0.79021
+0, 35000, training accuracy, 0.79021
+0, 35000, validation accuracy, 0.65
+0, 35250, training accuracy, 0.79021
+0, 35500, training accuracy, 0.79021
+0, 35500, validation accuracy, 0.75
+0, 35750, training accuracy, 0.79021
+0, 36000, training accuracy, 0.79021
+0, 36000, validation accuracy, 0.8
+0, 36250, training accuracy, 0.79021
+0, 36500, training accuracy, 0.79021
+0, 36500, validation accuracy, 0.85
+0, 36750, training accuracy, 0.79021
+0, 37000, training accuracy, 0.79021
+0, 37000, validation accuracy, 0.7
+0, 37250, training accuracy, 0.79021
+0, 37500, training accuracy, 0.79021
+0, 37500, validation accuracy, 0.75
+0, 37750, training accuracy, 0.79021
+0, 38000, training accuracy, 0.79021
+0, 38000, validation accuracy, 0.7
+0, 38250, training accuracy, 0.79021
+0, 38500, training accuracy, 0.79021
+0, 38500, validation accuracy, 0.75
+0, 38750, training accuracy, 0.79021
+0, 39000, training accuracy, 0.79021
+0, 39000, validation accuracy, 0.8
+0, 39250, training accuracy, 0.79021
+0, 39500, training accuracy, 0.79021
+0, 39500, validation accuracy, 0.75
+0, 39750, training accuracy, 0.79021
+0, 40000, training accuracy, 0.79021
+0, 40000, validation accuracy, 0.8
+0, 40250, training accuracy, 0.79021
+0, 40500, training accuracy, 0.79021
+0, 40500, validation accuracy, 0.8
+0, 40750, training accuracy, 0.79021
+0, 41000, training accuracy, 0.79021
+0, 41000, validation accuracy, 0.75
+0, 41250, training accuracy, 0.79021
+0, 41500, training accuracy, 0.79021
+0, 41500, validation accuracy, 0.75
+0, 41750, training accuracy, 0.79021
+0, 42000, training accuracy, 0.79021
+0, 42000, validation accuracy, 0.8
+0, 42250, training accuracy, 0.79021
+0, 42500, training accuracy, 0.79021
+0, 42500, validation accuracy, 0.8
+0, 42750, training accuracy, 0.79021
+0, 43000, training accuracy, 0.79021
+0, 43000, validation accuracy, 0.8
+0, 43250, training accuracy, 0.79021
+0, 43500, training accuracy, 0.79021
+0, 43500, validation accuracy, 0.75
+0, 43750, training accuracy, 0.79021
+0, 44000, training accuracy, 0.79021
+0, 44000, validation accuracy, 0.8
+0, 44250, training accuracy, 0.79021
+0, 44500, training accuracy, 0.79021
+0, 44500, validation accuracy, 0.85
+0, 44750, training accuracy, 0.79021
+0, 45000, training accuracy, 0.79021
+0, 45000, validation accuracy, 0.8
+0, 45250, training accuracy, 0.79021
+0, 45500, training accuracy, 0.79021
+0, 45500, validation accuracy, 0.75
+0, 45750, training accuracy, 0.79021
+0, 46000, training accuracy, 0.79021
+0, 46000, validation accuracy, 0.8
+0, 46250, training accuracy, 0.79021
+0, 46500, training accuracy, 0.79021
+0, 46500, validation accuracy, 0.8
+0, 46750, training accuracy, 0.79021
+0, 47000, training accuracy, 0.79021
+0, 47000, validation accuracy, 0.8
+0, 47250, training accuracy, 0.79021
+0, 47500, training accuracy, 0.79021
+0, 47500, validation accuracy, 0.85
+0, 47750, training accuracy, 0.79021
+0, 48000, training accuracy, 0.79021
+0, 48000, validation accuracy, 0.8
+0, 48250, training accuracy, 0.79021
+0, 48500, training accuracy, 0.79021
+0, 48500, validation accuracy, 0.8
+0, 48750, training accuracy, 0.79021
+0, 49000, training accuracy, 0.79021
+0, 49000, validation accuracy, 0.8
+0, 49250, training accuracy, 0.79021
+0, 49500, training accuracy, 0.79021
+0, 49500, validation accuracy, 0.8
+0, 49750, training accuracy, 0.79021
+[[  1.52388355e-03   1.23742851e-04   6.41098779e-07   4.11653991e-06
+    9.98347640e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  9.08350408e-01   7.89054334e-02   9.11571179e-03   3.49530751e-06
+    3.62487533e-03]]
+[[ 0.  1.  0.  0.  0.]]
+[[  1.92548171e-07   2.44585777e-07   9.99998808e-01   5.17715989e-07
+    2.53325084e-07]]
+[[ 0.  0.  1.  0.  0.]]
+[[  5.67831506e-04   9.99081850e-01   5.05977596e-06   7.56986992e-05
+    2.69561482e-04]]
+[[ 0.  1.  0.  0.  0.]]
+[[ 0.10204661  0.27877843  0.00144751  0.11121619  0.50651121]]
+[[ 0.  0.  0.  0.  1.]]
+[[  7.49453056e-06   9.97477114e-01   1.96949439e-03   6.49099748e-05
+    4.81028575e-04]]
+[[ 0.  1.  0.  0.  0.]]
+[[  3.39394392e-05   4.96770442e-03   9.94913459e-01   2.21718219e-05
+    6.27673726e-05]]
+[[ 0.  0.  1.  0.  0.]]
+[[  9.99521017e-01   9.04981498e-05   1.87547278e-06   4.58655137e-07
+    3.86078900e-04]]
+[[ 1.  0.  0.  0.  0.]]
+[[  5.96695065e-01   2.44016154e-03   6.90116503e-05   3.07224582e-05
+    4.00765061e-01]]
+[[ 0.  1.  0.  0.  0.]]
+[[  1.29284011e-03   1.14706962e-03   7.65573084e-01   2.31855214e-01
+    1.31814726e-04]]
+[[ 0.  0.  0.  1.  0.]]
+[[  4.31599583e-05   2.55244913e-06   5.60198669e-06   8.85918096e-04
+    9.99062836e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  3.47797965e-07   9.10275139e-06   9.99958873e-01   2.85470778e-05
+    3.16857472e-06]]
+[[ 0.  0.  1.  0.  0.]]
+[[  1.18951488e-04   4.93320310e-03   1.84573850e-03   3.56137636e-04
+    9.92745936e-01]]
+[[ 0.  0.  0.  0.  1.]]
+[[  5.47588206e-06   1.77746460e-05   9.99927402e-01   2.51295160e-06
+    4.68543840e-05]]
+[[ 0.  0.  1.  0.  0.]]
+[[  8.70592415e-01   1.22295789e-01   1.50476873e-03   2.83894860e-06
+    5.60422614e-03]]
+[[ 1.  0.  0.  0.  0.]]
+[[  5.61861307e-05   9.99830008e-01   9.91707639e-05   3.18315165e-06
+    1.14779232e-05]]
+[[ 0.  1.  0.  0.  0.]]
+[[  3.62178020e-04   6.89077948e-04   6.15087897e-03   9.92745101e-01
+    5.27379634e-05]]
+[[ 0.  0.  0.  1.  0.]]
+[[  2.65477523e-02   7.20563471e-01   8.08281708e-04   7.05482089e-04
+    2.51374960e-01]]
+[[ 0.  1.  0.  0.  0.]]
+[[  3.73913426e-05   4.62270895e-04   1.60044543e-02   9.83208597e-01
+    2.87334376e-04]]
+[[ 0.  0.  0.  1.  0.]]
+[[  9.98944461e-01   4.77174064e-04   1.04977800e-04   6.05189553e-06
+    4.67247039e-04]]
+[[ 1.  0.  0.  0.  0.]]
+0, test accuracy, 0.85
